@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/Cloud11.png" type="Texture" id=1]
+[ext_resource path="res://assets/Cloud.png" type="Texture" id=2]
+[ext_resource path="res://scripts/cloud.cs" type="Script" id=4]
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="cloud" type="AnimatedSprite"]
+frames = SubResource( 6 )
+script = ExtResource( 4 )

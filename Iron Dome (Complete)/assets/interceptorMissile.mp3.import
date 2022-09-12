@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/interceptorMissile.mp3-133e8c7612c1be45fd8f7bc90023b978.mp3str"
+
+[deps]
+
+source_file="res://assets/interceptorMissile.mp3"
+dest_files=[ "res://.import/interceptorMissile.mp3-133e8c7612c1be45fd8f7bc90023b978.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

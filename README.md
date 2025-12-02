@@ -12,9 +12,9 @@ This was a **learning project** I built while taking GameDev.tv courses and then
 <div align="center">
   <img src="https://github.com/ethqnit/Iron-Dome/blob/main/Iron%20Dome%20(Complete)/Screenshot%202025-12-02%20174719.png?raw=true)" width="100%" alt="Launching a counter-missile"/>
   <br><br>
-  <img src="https://github.com/ethqnit/Iron-Dome/blob/main/.github/gameplay2.jpg?raw=true" width="100%" alt="Mid-air explosion"/>
+  <img src="https://github.com/ethqnit/Iron-Dome/blob/main/Iron%20Dome%20(Complete)/Screenshot%202025-12-02%20174703.png?raw=true" width="100%" alt="Mid-air explosion"/>
   <br><br>
-  <img src="https://github.com/ethqnit/Iron-Dome/blob/main/.github/gameplay3.jpg?raw=true" width="100%" alt="Game Over screen"/>
+  <img src="https://github.com/ethqnit/Iron-Dome/blob/main/Iron%20Dome%20(Complete)/IronDome1.PNG?raw=true" width="100%" alt="Game Over screen"/>
 </div>
 
 <br>

@@ -1,5 +1,7 @@
 # Iron-Dome
 
+JavaScript Export Web Game.
+
 <img src="https://img.shields.io/badge/Godot-4.2+%20(C%23)-478CBF?style=for-the-badge&logo=godot-engine" alt="Godot 4 C#">
 <img src="https://img.shields.io/badge/Status-Learning%20Project%20%7C%20Archived-8A2BE2?style=for-the-badge" alt="Status">
 <img src="https://img.shields.io/github/stars/ethqnit/Iron-Dome?style=for-the-badge" alt="Stars">
@@ -77,3 +79,10 @@ Think of this repo as a public dev journal — messy in places, but full of usef
 2. Clone the repo
    ```bash
    git clone https://github.com/ethqnit/Iron-Dome.git
+
+Tools Used: 
+Development Engine( Godot) https://godotengine.org
+IDE (Visual Studio Code, Notepad++)
+Development Language used (C#, HTML, JavaScript, CSS)
+WebHosting(Free https://www.000webhost.com/
+Dreamlo (database)  https://dreamlo.com/ (API) REST - Json,XML,CSV formats.

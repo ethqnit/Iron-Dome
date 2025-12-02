@@ -10,7 +10,7 @@ Click (or tap) to launch counter-missiles that predict and destroy incoming thre
 This was a **learning project** I built while taking GameDev.tv courses and then extended far beyond the tutorials with real predictive interception math, trails, explosions, and screen shake.
 
 <div align="center">
-  <img src="https://github.com/ethqnit/Iron-Dome/blob/main/.github/gameplay1.jpg?raw=true" width="100%" alt="Launching a counter-missile"/>
+  <img src="[https://github.com/ethqnit/Iron-Dome/blob/main/.github/gameplay1.jpg?raw=true](https://github.com/ethqnit/Iron-Dome/blob/main/Iron%20Dome%20(Complete)/Screenshot%202025-12-02%20174719.png?raw=true)" width="100%" alt="Launching a counter-missile"/>
   <br><br>
   <img src="https://github.com/ethqnit/Iron-Dome/blob/main/.github/gameplay2.jpg?raw=true" width="100%" alt="Mid-air explosion"/>
   <br><br>

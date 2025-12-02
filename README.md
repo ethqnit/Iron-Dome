@@ -1,82 +1,66 @@
-# Iron-Dome
+<img src="https://img.shields.io/badge/Godot-3.5.3%20(Mono%20C%23)-478CBF?style=for-the-badge&logo=godot-engine" alt="Godot 3.5 C#">
+<img src="https://img.shields.io/badge/Status-Learning%20Project%20·%20Archived-ff69b4?style=for-the-badge" alt="Status">
+<img src="https://img.shields.io/github/stars/ethqnit/Iron-Dome?style=for-the-badge&color=yellow" alt="Stars">
 
-JavaScript Export Web Game.
+# Iron Dome – Missile Defense Learning Prototype
 
-<img src="https://img.shields.io/badge/Godot-4.2+%20(C%23)-478CBF?style=for-the-badge&logo=godot-engine" alt="Godot 4 C#">
-<img src="https://img.shields.io/badge/Status-Learning%20Project%20%7C%20Archived-8A2BE2?style=for-the-badge" alt="Status">
-<img src="https://img.shields.io/github/stars/ethqnit/Iron-Dome?style=for-the-badge" alt="Stars">
+**A 2D ballistic missile interceptor game built in Godot 3.5 using C#**  
+Click (or tap) to launch counter-missiles that predict and destroy incoming threats before they reach the ground.
 
-# ✈️ Iron Dome – Missile Defense Prototype
-
-**A 2D missile interceptor game built in Godot 4 using C#**  
-Defend your cities from waves of incoming ballistic missiles by launching counter-missiles that predict and intercept threats mid-flight.
-
-This is a **learning sandbox** — not a polished game. I built it to deeply understand:
-- Predictive targeting & interception math
-- C# + Godot 4 workflow
-- Particle effects, trails, and explosions
-- Scene organization and signal-based architecture
+This was a **learning project** I built while taking GameDev.tv courses and then extended far beyond the tutorials with real predictive interception math, trails, explosions, and screen shake.
 
 <div align="center">
-  <img src=".github/gameplay.gif" width="800" alt="Iron Dome Gameplay"/>
+  <img src="https://github.com/ethqnit/Iron-Dome/blob/main/.github/gameplay1.jpg?raw=true" width="100%" alt="Launching a counter-missile"/>
   <br><br>
-  <sub><b>Intercepting multiple incoming threats with predictive trajectories</b></sub>
+  <img src="https://github.com/ethqnit/Iron-Dome/blob/main/.github/gameplay2.jpg?raw=true" width="100%" alt="Mid-air explosion"/>
+  <br><br>
+  <img src="https://github.com/ethqnit/Iron-Dome/blob/main/.github/gameplay3.jpg?raw=true" width="100%" alt="Game Over screen"/>
 </div>
 
 <br>
 
-## 🎮 Features
+## Features
 
-- Realistic(ish) missile interception with lead prediction
-- Explosions with screen shake and debris particles
-- Satisfying trail effects using `Trail2D` + custom shaders
-- Multiple cities to protect (game over when all are destroyed)
-- Increasing difficulty waves
-- 100% C# scripting (no GDScript!)
-- Heavily modified open-source assets (all credited)
-
-<br>
-
-## 🛠️ Built With
-
-- **Godot Engine 4.2+** (Mono / C#)
-- Custom math for interception point calculation
-- Modified assets from Kenney.nl (see credits)
-- Particle systems & shader-based glow trails
+- True predictive targeting (intercept point calculated mathematically)
+- Satisfying mid-air explosions with debris and screen shake
+- Pixel-perfect missile trails
+- Health/Score system
+- One defender dome protecting the planet
+- 100% C# (Godot 3.5 Mono)
 
 <br>
 
-## 🎯 Why This Project Exists
+## Built With
 
-I made **Iron Dome** to level up my Godot + C# skills and explore real-time defense mechanics. Concepts learned here are now used in my newer (and much better) games.
-
-Think of this repo as a public dev journal — messy in places, but full of useful tricks:
-- How to calculate intercept points between two moving objects
-- Clean C# pattern for spawning & managing projectiles
-- Making explosions that *feel* powerful
+- **Godot Engine 3.5.3 (Mono / C#)**
+- Predictive interception math (lead pursuit)
+- Heavily modified assets from GameDev.tv courses
+- Additional free assets (Kenney, etc.)
 
 <br>
 
-## 📸 Screenshots
+## Why This Exists
 
-| Incoming Wave | Successful Intercept | Game Over |
-|---------------|----------------------|-----------|
-| ![1](/.github/screen1.jpg) | ![2](/.github/screen2.jpg) | ![3](/.github/screen3.jpg) |
+I wanted to go from “following tutorials” → “actually understanding how missile defense games work”.  
+So I threw away the simple homing missiles from the course and implemented real intercept-point prediction instead.
 
-<br>
-
-## 🎖️ Credits & Licenses
-
-- Missile/City assets: Modified from [Kenney Rocket Pack](https://kenney.nl/assets) (CC0)
-- Explosion particles: Heavily modified from public domain sources
-- Sound effects: From [freesound.org](https://freesound.org) (credited in-game)
+Everything I learned here (trajectory math, clean C# architecture, juicy feedback) has been reused in my newer games.
 
 <br>
 
-## 🚀 Getting Started (If You Want to Run It)
+## Credits & Thanks
 
-1. Install **Godot 4.2+ Mono** (C# version)
-2. Clone the repo
+- Art & original concept assets: Provided in [GameDev.tv courses](https://www.gamedev.tv) (used under student license for learning/portfolio)
+- Additional assets: Kenney.nl (CC0)
+- Sound effects: freesound.org (public domain / CC0)
+- Huge thanks to the GameDev.tv instructors – this project started with their excellent teaching!
+
+<br>
+
+## How to Run
+
+1. Download **Godot 3.5.3 Mono** → https://godotengine.org/download/archive/
+2. Clone or download this repo
    ```bash
    git clone https://github.com/ethqnit/Iron-Dome.git
 
